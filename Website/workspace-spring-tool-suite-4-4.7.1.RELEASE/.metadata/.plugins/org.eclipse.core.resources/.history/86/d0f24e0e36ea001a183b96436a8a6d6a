@@ -1,0 +1,5 @@
+package com.athleap.springboot.repository;
+
+public class AthleteRepository {
+
+}

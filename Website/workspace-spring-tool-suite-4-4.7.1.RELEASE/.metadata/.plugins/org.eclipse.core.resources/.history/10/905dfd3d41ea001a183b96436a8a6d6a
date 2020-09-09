@@ -1,0 +1,63 @@
+package com.athleap.springboot.model;
+import java.lang.*;
+public class Athlete {
+	private long id;
+	private String firstname;
+	private String lastname;
+	private String emailId;
+	private String sport;
+	private double totalPercentOfCareerEarnings;
+	private double dollarsPerPercent;
+	public Athlete() {
+		
+	}
+	public Athlete(String firstname, String lastname, String emailId, String sport) {
+		super();
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.emailId = emailId;
+		this.sport = sport;
+	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getFirstname() {
+		return firstname;
+	}
+	public void setFirstname(String firstname) {
+		this.firstname = firstname;
+	}
+	public String getLastname() {
+		return lastname;
+	}
+	public void setLastname(String lastname) {
+		this.lastname = lastname;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	public String getSport() {
+		return sport;
+	}
+	public void setSport(String sport) {
+		this.sport = sport;
+	}
+	public double getTotalPercentOfCareerEarnings() {
+		return totalPercentOfCareerEarnings;
+	}
+	public void setTotalPercentOfCareerEarnings(double totalPercentOfCareerEarnings) {
+		this.totalPercentOfCareerEarnings = totalPercentOfCareerEarnings;
+	}
+	public double getDollarsPerPercent() {
+		return dollarsPerPercent;
+	}
+	public void setDollarsPerPercent(double dollarsPerPercent) {
+		this.dollarsPerPercent = dollarsPerPercent;
+	}
+}

@@ -1,0 +1,9 @@
+package com.athleap.springboot.controller;
+
+import org.springframework.boot.SpringApplication;
+
+@RestController
+@RequestMapping("/api/v1/")
+public class AthleteController {
+
+}

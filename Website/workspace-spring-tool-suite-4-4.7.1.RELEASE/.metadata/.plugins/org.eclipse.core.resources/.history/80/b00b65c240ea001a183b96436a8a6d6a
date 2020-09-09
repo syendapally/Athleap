@@ -1,0 +1,24 @@
+package com.athleap.springboot.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.athleap.springboot.model.Athlete;
+import com.athleap.springboot.repository.AthleteRepository;
+
+@RestController
+@RequestMapping("/api/v1/")
+public class AthleteController {
+
+	@Autowired
+	private AthleteRepository athleteRepository;
+	
+	@GetMapping("/athletes")
+	public List<Athlete> getAllAthletes(){
+		return athleteRepository.findAll();
+	}
+}

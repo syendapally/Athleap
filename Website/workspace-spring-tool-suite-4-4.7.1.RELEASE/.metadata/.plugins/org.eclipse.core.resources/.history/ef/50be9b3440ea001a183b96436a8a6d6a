@@ -1,0 +1,6 @@
+package com.athleap.springboot.controller;
+@RestController
+@RequestMapping("/api/v1/")
+public class AthleteController {
+
+}

@@ -1,0 +1,5 @@
+package com.athleap.springboot.model;
+
+public class Athlete {
+
+}

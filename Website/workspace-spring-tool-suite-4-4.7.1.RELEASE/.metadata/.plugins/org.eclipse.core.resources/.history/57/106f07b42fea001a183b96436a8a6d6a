@@ -1,0 +1,11 @@
+package com.athleap.springboot.model;
+
+public class Athlete {
+	private long id;
+	private String firstname;
+	private String lastname;
+	private String emailId;
+	private String sport;
+	private double totalPercentOfCareerEarnings;
+	private double dollarsPerPercent;
+}
